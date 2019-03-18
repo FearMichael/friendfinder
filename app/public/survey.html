@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8' />
+<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+<title></title>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link rel='stylesheet' type='text/css' media='screen' href='style.css' />
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+</head>
+<body>
+<div class="main-section light-blue lighten-3 center-align">
+<h1>Survey Questions</h1>
+<div class="container line"> </div>
+</div>
+<div class="container">
+<h4 class="center-align">About You</h4>
+<div class="container row">
+    <form method="post" class="col s12 survey">
+        <div class="row">
+            <div class="input-field">
+                <input placeholder="Your Name" id="name" type="text">
+                <label>Name:</label>
+            </div>
+        <div class="row">
+            <div class="input-field">
+                <input placeholder="Link to photo" id="photo" type="text">
+                <label>Link to photo:</label>
+            </div>
+        </div>
+        <!-- Question 1 -->
+        <div class="row">
+            <h5>1. Your mind is always buzzing with unexplored ideas and plans.</h5>
+                <div class="input-field col">
+                    <select class="question" id="question1">
+                        <option value="">Select Choice</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                </div>
+            </div>
+        <!-- Question 2 -->
+        <div class="row">
+                <h5>2. Generally speaking, you rely more on your experience than your imagination.</h5>                    <div class="input-field col">
+                        <select class="question" id="question2">
+                            <option value="">Select Choice</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        
+                    </div>
+            </div>
+        <!-- Question 3 -->
+                <div class="row">
+                        <h5>3. You find it easy to stay relaxed and focused even when there is some pressure</h5>
+                            <div class="question" class="input-field col">
+                                <select id="question3">
+                                    <option value="">Select Choice</option>
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                    </div>
+          <!-- Question 4 -->
+          <div class="row">
+                <h5>4. You rarely do something just out of sheer curiosity.</h5>
+                    <div class="input-field col">
+                        <select class="question" id="question4">
+                            <option value="">Select Choice</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+            </div>
+        <!-- Question 5 -->
+        <div class="row">
+                <h5>5. People can rarely upset you.</h5>
+                    <div class="input-field col">
+                        <select class="question" id="question5">
+                            <option value="">Select Choice</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+            </div>
+        <!-- Question 6 -->
+        <div class="row">
+                <h5>6. It is often difficult for you to relate to other people's feelings.</h5>
+                    <div class="input-field col">
+                        <select class="question" id="question6">
+                            <option value="">Select Choice</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+            </div>
+        <!-- Question 7 -->
+        <div class="row">
+                <h5>7. In a discussion, truth should be more important than people's sensitivities.</h5>
+                    <div class="input-field col">
+                        <select class="question" id="question7">
+                            <option value="">Select Choice</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+            </div>
+        <!-- Question 8 -->
+        <div class="row">
+                <h5>8. You rarely get carried away by fantasies and ideas</h5>
+                    <div class="input-field col">
+                        <select class="question" id="question8">
+                            <option value="">Select Choice</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+            </div>
+        <!-- Question 9 -->
+        <div class="row">
+                <h5>9. You think that everyone's views should be respected regardless of whether they are supported by facts or not.</h5>
+                    <div class="input-field col">
+                        <select class="question" id="question9">
+                            <option value="">Select Choice</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+            </div>
+        <!-- Question 10 -->
+        <div class="row">
+                <h5>10. You feel more energetic after spending time with a group of people.</h5>
+                    <div class="input-field col">
+                        <select class="question" id="question10">
+                            <option value="">Select Choice</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+            </div>
+            <button class="btn btn-large formButton">Find a Friend!</button>
+        </div>
+    </form>
+</div>
+
+</div>
+<div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4 id="matchHeader"></h4>
+      <h5>Test Score Difference: <span id="matchDiff"></span></h5>
+      <img class="responsive-img" id="matchPic" src=""></img>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="friends.js"></script>
+</body>
+</html>
