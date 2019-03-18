@@ -2,7 +2,7 @@
   "name": "friendfinder",
   "version": "1.0.0",
   "engines": {
-    "node": "11.0.0"
+    "node": "8.0.0"
     }, 
   "description": "A full stack web application that compares a quick quiz with others to find the best match.",
   "main": "server.js",
