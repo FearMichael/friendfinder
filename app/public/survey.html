@@ -17,7 +17,7 @@
 <div class="container">
 <h4 class="center-align">About You</h4>
 <div class="container row">
-    <form class="col s12 survey">
+    <form method="post" class="col s12 survey">
         <div class="row">
             <div class="input-field">
                 <input placeholder="Your Name" id="name" type="text">
@@ -41,7 +41,6 @@
                         <option value="4">4</option>
                         <option value="5">5</option>
                     </select>
-                    <label>Question 1</label>
                 </div>
             </div>
         <!-- Question 2 -->
@@ -55,7 +54,7 @@
                             <option value="4">4</option>
                             <option value="5">5</option>
                         </select>
-                        <label>Question 2</label>
+                        
                     </div>
             </div>
         <!-- Question 3 -->
@@ -70,7 +69,6 @@
                                     <option value="4">4</option>
                                     <option value="5">5</option>
                                 </select>
-                                <label>Question 3</label>
                             </div>
                     </div>
           <!-- Question 4 -->
@@ -85,7 +83,6 @@
                             <option value="4">4</option>
                             <option value="5">5</option>
                         </select>
-                        <label>Question 4</label>
                     </div>
             </div>
         <!-- Question 5 -->
@@ -100,7 +97,6 @@
                             <option value="4">4</option>
                             <option value="5">5</option>
                         </select>
-                        <label>Question 5</label>
                     </div>
             </div>
         <!-- Question 6 -->
@@ -115,7 +111,6 @@
                             <option value="4">4</option>
                             <option value="5">5</option>
                         </select>
-                        <label>Question 6</label>
                     </div>
             </div>
         <!-- Question 7 -->
@@ -130,7 +125,6 @@
                             <option value="4">4</option>
                             <option value="5">5</option>
                         </select>
-                        <label>Question 7</label>
                     </div>
             </div>
         <!-- Question 8 -->
@@ -145,7 +139,6 @@
                             <option value="4">4</option>
                             <option value="5">5</option>
                         </select>
-                        <label>Question 8</label>
                     </div>
             </div>
         <!-- Question 9 -->
@@ -160,7 +153,6 @@
                             <option value="4">4</option>
                             <option value="5">5</option>
                         </select>
-                        <label>Question 9</label>
                     </div>
             </div>
         <!-- Question 10 -->
@@ -175,7 +167,6 @@
                             <option value="4">4</option>
                             <option value="5">5</option>
                         </select>
-                        <label>Question 10</label>
                     </div>
             </div>
             <button class="btn btn-large formButton">Find a Friend!</button>
@@ -184,9 +175,19 @@
 </div>
 
 </div>
+<div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4 id="matchHeader"></h4>
+      <h5>Test Score Difference: <span id="matchDiff"></span></h5>
+      <img class="responsive-img" id="matchPic" src=""></img>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+</div>
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script src="../data/friends.js"></script>
+<script src="friends.js"></script>
 </body>
 </html>
