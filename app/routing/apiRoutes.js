@@ -14,7 +14,6 @@ const friendsData = require("../data/friendsData")
     friendsData.friendsArr.forEach(function(elem) {
         let currentDiff = 0; //difference to compare to friendDifference to find best match
 
-        console.log("ROUND ONE" + elem.name)
         for (i=0; i<elem.questions.length; i++) {
             diff = Math.abs(Math.abs(parseInt(elem.questions[i]) - parseInt(req.body.questions[i])));
             currentDiff += diff;
@@ -33,7 +32,6 @@ const friendsData = require("../data/friendsData")
             // });
             // console.log(`Current diff 1: ${currentDiff}`);
             if (currentDiff < match.friendDifference) {
-                console.log("Third diff " + currentDiff)
                 // console.log(currentDiff);
                 match = {
                     name: elem.name,
